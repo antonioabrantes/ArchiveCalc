@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">ArquivoCalc</string>
+    <string name="item_inicio">Início</string>
+    <string name="item_about">Informações</string>
+    <string name="item_ajuda">Ajuda</string>
+    <string name="item_idioma">Idioma</string>
+    <string name="item_sair">Sair</string>
+    <string name="item_copy">Copiar</string>
+    <string name="btnCalcular">Calcular</string>
+    <string name="btnCancelar">Voltar</string>
+    <string name="btnVoltar">Voltar</string>
+    <string name="btnParametros">Calcular Parâmetros de Arquivo</string>
+    <string name="btnMetroLinear">Calcular Metro Linear</string>
+    <string name="Tipo1Extensao1">Extensão A (m)</string>
+    <string name="Tipo1Prateleiras1">Número de prateleiras A</string>
+    <string name="Tipo1Extensao2">Extensão B (m)</string>
+    <string name="Tipo1Prateleiras2">Número de prateleiras B</string>
+    <string name="Tipo2Altura1">Altura da 1° pilha de documentos (m)</string>
+    <string name="Tipo2Altura2">Altura da 2° pilha de documentos (m)</string>
+    <string name="Tipo3Altura">Altura da pilha de documentos (m)</string>
+    <string name="Tipo3Extensao">Extensão da pilha de documentos (m)</string>
+    <string name="Tipo4Profundidade1">Profundidade ocupada da 1° gaveta (m)</string>
+    <string name="Tipo4Profundidade2">Profundidade ocupada da 2° gaveta (m)</string>
+    <string name="Tipo5Altura">Altura do pacote (m)</string>
+    <string name="Tipo5Comprimento">Comprimento do pacote (m)</string>
+    <string name="Tipo5Largura">Largura do pacote (m)</string>
+    <string name="Tipo5Pacotes">Número de pacotes</string>
+    <string name="Tipo6Altura">Altura do monte (m)</string>
+    <string name="Tipo6Comprimento">Comprimento do monte (m)</string>
+    <string name="Tipo6Largura">Largura do monte (m)</string>
+    <string-array name="lista_parametros">
+        <item>Caixas Arquivo</item>
+        <item>Metro Linear Total</item>
+        <item>Área Física das Estantes</item>
+        <item>Volume (m3) Documental</item>
+        <item>Número de Estantes</item>
+    </string-array>
+    <string name="stripc">ArquivoCalc Calculadora de Arquivos</string>
+    <string name="about1">Este app foi desenvolvido por Antonio Abrantes e Paula Cotrim de Abrantes - 2019</string>
+    <string name="about2">contacte: otimistarj@gmail.com \n pcotrimdeabrantes@gmail.com</string>
+    <string name="about3"></string>
+    <string name="about5"></string>
+    <string name="strAjuda">O ArquivoCalc é um aplicativo que é voltado para
+        documentos textuais.
+        O aplicativo permite calcular diferentes parâmetros de arquivos (metro linear,
+        peso (kg), volume (m3), número de caixas arquivos, número de estantes e área física total) a partir
+        da entrada de um parâmetro dentre quais: caixas arquivo, metro linear, área física, volume ou número de estantes.
+        Os parâmetros número de caixas arquivo por estante, metro linear de cada caixa arquivo, área física de cada estante,
+        volume por metro linear, peso por metro linear são editados de acordo com a necessidade do usuário. \n\n
+        Os valores de referência de 50kg de peso por
+        metro linear e volume de 0.08m3 por metro linear foram baseados na publicação do Arquivo Nacional “Manual de
+        identificação de acervos documentais para  transferência e ou recolhimento aos arquivos públicos”. \n\n
+
+        O app traz também
+        figuras que foram baseadas nos exemplos inseridos na publicação do Arquivo Nacional “Manual de roteiro para mensuração
+        de documentos textuais” que facilitam o usuário a calcular o metro linear total. Nessa parte do app basta o usuário
+        clicar na figura e inserir os dados de dimensões solicitados que ele trará o resultado final em metros lineares.\n\n
+        O aplicativo possibilita calcular o metro linear total a partir da seleção de diferentes
+        itens de arquivo (deslize a tela para poder selecionar a figura desejada):
+        documentos arquivados em caixas, documentos empilhados, documentos encadernados,
+        documentos fichários ou arquivos, documentos em pacotes ou documentos em montes. Todas as dimensões
+        são dadas em metros. \n\n
+        Os dados inseridos pelo usuário ficam armazenados no aplicativo de modo que da próxima vez que
+        o usuário abrir o app ele irá recuperar os últimos dados cadastrados até o momento que se deseje apagá-los.
+        Para apagar um cálculo feito a partir da tela de figuras basta clicar no cálculo desejado (deslize a tela para poder
+        selecionar o cálculo desejado) e o aplicativo abrirá uma tela onde será possível apagar somente um cálculo ou a todos.
+        \n\n
+        Em qualquer tela basta clicar no ícone “casa” na barra de menu superior
+        para voltar à
+        tela inicial. Para sair basta clicar nos três pontos do menu superior e depois em “sair”, dessa forma o aplicativo
+        será encerrado.\n\n\n\n.
+
+    </string>
+    <string name="MsgDeletar">Para apagar um registro basta selecioná-lo para ser direcionado à tela que permite apagar a todos ou somente o registro selecionado</string>
+
+</resources>

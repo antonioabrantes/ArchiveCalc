@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ColetarDados1"
+    android:clickable="true"
+    android:focusableInTouchMode="true"
+    tools:layout_editor_absoluteY="81dp">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"
+        android:layout_width="fill_parent"
+        android:layout_height="56dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></include>
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_marginTop="56dp"
+        android:background="@color/colorWhite"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="@+id/toolbar"
+        app:layout_constraintStart_toStartOf="@+id/toolbar"
+        app:layout_constraintTop_toTopOf="@+id/toolbar"
+        app:srcCompat="@drawable/tipo1" />
+
+    <TableLayout
+        android:id="@+id/tableLayoutD1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton1">
+
+        <TableRow
+            android:id="@+id/tableRowD1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView1b1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:padding="5dip"
+                android:text="@string/Tipo1Extensao1" />
+
+            <EditText
+                android:id="@+id/editText1Extensao1"
+                android:layout_width="80sp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="16sp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:inputType="numberDecimal" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRowD2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView1b2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:padding="5dip"
+                android:text="@string/Tipo1Prateleiras1" />
+
+            <EditText
+                android:id="@+id/editText1Prateleiras1"
+                android:layout_width="80sp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="16sp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:inputType="number" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRowD3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView1b3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:padding="5dip"
+                android:text="@string/Tipo1Extensao2" />
+
+            <EditText
+                android:id="@+id/editText1Extensao2"
+                android:layout_width="80sp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="16sp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:inputType="numberDecimal" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRowD4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView1b4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:padding="5dip"
+                android:text="@string/Tipo1Prateleiras2" />
+
+            <EditText
+                android:id="@+id/editText1Prateleiras2"
+                android:layout_width="80sp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="16sp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:inputType="number" />
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/btn1Cancelar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/btnCancelar"
+        app:layout_constraintEnd_toStartOf="@+id/tableLayoutD1"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayoutD1" />
+
+    <Button
+        android:id="@+id/btn1Calcular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:text="@string/btnCalcular"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btn1Cancelar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn1Cancelar" />
+
+
+</android.support.constraint.ConstraintLayout>

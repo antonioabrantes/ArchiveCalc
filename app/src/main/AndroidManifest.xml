@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="mannings.msi.com.ttddtools">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_round"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".DeletarDados" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ColetarDados1" />
+        <activity android:name=".CalcularDados" />
+        <activity android:name=".ColetarDados2" />
+        <activity android:name=".ColetarDados3" />
+        <activity android:name=".ColetarDados4" />
+        <activity android:name=".ColetarDados5" />
+        <activity android:name=".ColetarDados6" />
+        <activity android:name=".MetroLinear" />
+        <activity android:name=".Parametros" />
+        <activity android:name=".CalcularParametros" />
+        <activity android:name=".EditarEstante" />
+        <activity android:name=".About" />
+        <activity android:name=".Ajuda"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"
+        android:layout_width="fill_parent"
+        android:layout_height="56dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></include>
+
+    <Button
+        android:id="@+id/bttParametros"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="53dp"
+        android:layout_marginLeft="53dp"
+        android:layout_marginTop="167dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginRight="41dp"
+        android:background="@null"
+        android:drawableTop="@drawable/btnparametros"
+        android:drawablePadding="10dp"
+        android:gravity="center_horizontal"
+        android:text="@string/btnParametros"
+        android:textColor="@color/preto"
+        android:scaleType="fitCenter"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/bttMetroLinear"
+        app:layout_constraintStart_toStartOf="@+id/toolbar"
+        app:layout_constraintTop_toTopOf="@+id/toolbar" />
+
+    <Button
+        android:id="@+id/bttMetroLinear"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:background="@null"
+        android:drawableTop="@drawable/btnmetrolinear"
+        android:drawablePadding="10dp"
+        android:text="@string/btnMetroLinear"
+        android:textColor="@color/preto"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/bttParametros"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/bttParametros" />
+
+</android.support.constraint.ConstraintLayout>
